@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from "./Button";
 
 interface SideBarProps {
@@ -34,3 +35,5 @@ export function SideBar({
     </nav>
   )
 }
+
+export const MemoizedSideBar = React.memo(SideBar);
